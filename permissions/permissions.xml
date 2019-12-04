@@ -780,7 +780,7 @@
         <RunTimePermissions></RunTimePermissions>
         <Entities>
             <Entity
-             name="TestDevOps"
+             name="TestDevOps1"
              type="Project">
                 <VisibilityPermissions>
                     <Visibility></Visibility>
@@ -1136,7 +1136,22 @@
         <RunTimePermissions></RunTimePermissions>
         <Entities>
             <Entity
-             name="GitBackupTemp2"
+             name="TestDevOpsThing4"
+             type="Thing">
+                <VisibilityPermissions>
+                    <Visibility></Visibility>
+                </VisibilityPermissions>
+                <DesignTimePermissions>
+                    <Create></Create>
+                    <Read></Read>
+                    <Update></Update>
+                    <Delete></Delete>
+                    <Metadata></Metadata>
+                </DesignTimePermissions>
+                <RunTimePermissions></RunTimePermissions>
+            </Entity>
+            <Entity
+             name="GetBackupThing2"
              type="Thing">
                 <VisibilityPermissions>
                     <Visibility></Visibility>
